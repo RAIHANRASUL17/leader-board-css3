@@ -24,12 +24,18 @@ main{
     font-weight: 500;
 font-size: 24px;
 color: #562EFF;
+margin-top: 3px;
+}
+
+.top-players{
+    margin-bottom: 30px;
 }
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* or 
     grid-template-columns: 1fr 1fr 1fr; */
+    grid-row-gap: 30px;
 }
 
 .player img {
@@ -43,4 +49,12 @@ color: #562EFF;
 }
 .player-name{
     margin-left: 16px;
+    font-weight: 500;
+font-size: 18px;
+color: #000000;
+}
+/* Horizontal Line Style */
+hr{
+    border: 1px solid #D1D1D1;
+    /* margin-top: 30px; */
 }
