@@ -9,14 +9,20 @@ body {
 
 main {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    /* for step 3.0: justify-content center will be cancel and put flex-direction column and align items center*/
+    flex-direction: column;
+    align-items: center;
 }
 
 .container {
     background-color: #FFFFFF;
     width: 870px;
     height: 679px;
+    border-radius: 5px;
     padding: 30px;
+    /* for step:3.0 margin top */
+    margin-top: 21px;
 }
 
 /* top-players styles */
@@ -59,13 +65,18 @@ main {
 /* Horizontal Line Style */
 hr {
     border: 1px solid #D1D1D1;
-    /* margin-top: 30px; */
+    margin-bottom: 27px;
 }
 
 /* ---------------------------------------
            Top Blogs Styles 
 ------------------------------------------ */
 /* Blog-1 Start */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
 .blog {
     display: flex;
 }
