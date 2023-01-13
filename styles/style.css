@@ -92,13 +92,13 @@ hr {
 }
 
 .blog-title {
-    font-weight: 500;
+    /* font-weight: 500; */
     font-size: 20px;
     color: #000000;
 }
 
 .blog-author {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     color: #9F9F9F;
 }
@@ -106,7 +106,7 @@ hr {
 .blog-author a {
     text-decoration: none;
     color: #562EFF;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
 }
 
@@ -169,6 +169,26 @@ hr {
     color: #AEAEAE;
 
 }
-
-
 /* Course-1 Styles End */
+
+
+/* -----------------------------------------------------
+                        Media Query
+----------------------------------------------------------- */
+/* Mobile devices */
+@media screen and (max-width:688px) {
+    .players, .blogs, .courses{
+        /* background-color: red; */
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container{
+        width: 100%;
+    }
+    .player, .blog{
+        flex-direction: column;
+    }
+    /* for working facilities, need to hide  */
+    /* .blogs, .courses{
+        display: none;
+    } */
+}
