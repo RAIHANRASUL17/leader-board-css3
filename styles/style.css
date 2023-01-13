@@ -109,3 +109,35 @@ hr {
     font-size: 16px;
 }
 /* Blog-1 End */
+
+/* -------------------------------------
+                 Courses Styles
+----------------------------------------- */
+/* Course-1 Styles Start */
+.course .course-banner img{
+    width: 224px;
+height: 104px;
+}
+/* for (star,4.5, clock symble and 01:30) display flex  */
+.course-info{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+/* for star part styles */
+.fa-star{
+    font-size: 12px;
+}
+
+.fa-star.filled{
+    /* don't put any gap */
+    color: #FFC014; 
+}
+
+.fa-star.empty{
+    color: #AEAEAE;
+
+}
+
+
+/* Course-1 Styles End */
