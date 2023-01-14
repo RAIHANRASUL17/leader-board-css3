@@ -72,6 +72,7 @@ hr {
            Top Blogs Styles 
 ------------------------------------------ */
 /* Blog-1 Start */
+
 .blogs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -183,6 +184,7 @@ hr {
     }
     .container{
         width: 100%;
+        height: 100%;
     }
     .player, .blog{
         flex-direction: column;
